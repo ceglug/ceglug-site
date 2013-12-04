@@ -19,9 +19,9 @@ How do I contribute to the site?
         $ git clone https://github.com/(your-github-id-goes-here)/ceglug.github.io.git
 
 - Change the directory to the site directory. 
-        cd ceglug.github.io/
+        $ cd ceglug.github.io/
 - Start the Jekyll Server
-        jekyll serve
+        $ jekyll serve
 
 - You can view your site on localhost:4000 on your browser. If you change the port number, you will have to edit the "_config.yml"_ file accordingly. 
 
