@@ -33,7 +33,7 @@ How do I contribute to the site?
 
 - You can view your site on localhost:4000 on your browser. If you change the port number, you will have to edit the "_config.yml"_ file accordingly. 
 
-- The site can be viewed at [ceglug.org](ceglug.org)
+- The site can be viewed at [ceglug.org](http://ceglug.org)
 
 License
 ----
