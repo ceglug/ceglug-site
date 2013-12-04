@@ -57,7 +57,44 @@
 <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ site.url }}/images/apple-touch-icon-114x114-precomposed.png">
 <!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
 <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.url }}/images/apple-touch-icon-144x144-precomposed.png">
+<script type="text/javascript" charset="utf-8">
+function jumpScroll() {
+        window.scroll(0,150); // horizontal and vertical scroll targets
+}
+function jumpScroll1() {
+        window.scroll(0,-150); // horizontal and vertical scroll targets
+}
 
+    KeyboardJS.on('a', function() {
+            window.location = "http://ceglug.github.io/about/"
+                });
+    KeyboardJS.on('c', function() {
+            window.location = "http://ceglug.github.io/contributors/"
+                });
+    KeyboardJS.on('m', function() {
+            window.location = "http://ceglug.github.io/message/"
+                });
+    KeyboardJS.on('h', function() {
+            window.location = "http://ceglug.github.io/"
+                });
+    KeyboardJS.on('p', function() {
+            window.location = "http://ceglug.github.io/archive/"
+                });
+    KeyboardJS.on('t', function() {
+            window.location = "http://ceglug.github.io/tags/"
+                });
+    KeyboardJS.on('n', function() {
+            button.dl-trigger
+                });
+
+    KeyboardJS.on('j',
+            jumpscroll()
+                );
+    KeyboardJS.on('k', 
+            jumpscroll1()
+                );
+
+</script>
 {% if page.image.background or site.background %}
 {% capture background %}{% if page.image.background %}{{ page.image.background }}{% else %}{{ site.background }}{% endif %}{% endcapture %}
 {% unless background contains 'http://' or background contains 'https://' %}{% capture background %}{{ site.url }}/images/{{ background }}{% endcapture %}{% endunless %}
