@@ -1,9 +1,5 @@
-# This would be the ceglug site. 
-
-# We would have a page for the following
-- Contributors list
-- Tutorial Posts
-- Distro Documentation
+##CEGLUG##
+CEG's GNU/Linux Users Group
 
 How do I contribute to the site? 
 -----------
@@ -16,18 +12,20 @@ How do I contribute to the site?
         $ gem install jekyll
 
         $ gem install kramdown
-- [Star us](https://github.com/ceglug/thesite/star)
-- [Fork us](https://github.com/ceglug/thesite/fork)
+- [Star us](https://github.com/ceglug/ceglug.github.io/star) :D
+- [Fork us](https://github.com/ceglug/ceglug.github.io/fork) ;)
 - Clone the repo
 
-        $ git clone https://github.com/(your-github-id-goes-here)/thesite.git
+        $ git clone https://github.com/(your-github-id-goes-here)/ceglug.github.io.git
 
-- cd thesite/
-- jekyll serve
+- Change the directory to the site directory. 
+        cd ceglug.github.io/
+- Start the Jekyll Server
+        jekyll serve
 
 - You can view your site on localhost:4000 on your browser. If you change the port number, you will have to edit the "_config.yml"_ file accordingly. 
 
-- A demo site is available on [prashantbarca.github.io](http://prashantbarca.github.io/)
+- The site can be viewed at [ceglug.org](ceglug.org)
 
 License
 ----
