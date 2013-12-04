@@ -15,10 +15,12 @@ How do I contribute to the site?
 - [Star us](https://github.com/ceglug/ceglug.github.io/star) :D
 - [Fork us](https://github.com/ceglug/ceglug.github.io/fork) ;)
 - Clone the repo
-        + if you have forked it, it should be like this
+        
+        if you have forked it, it should be like this
             
             $ git clone https://github.com/(your-github-id-goes-here)/ceglug.github.io.git
-        + if not forked. then
+        
+        if not forked. then
             
             $ git clone https://github.com/ceglug/ceglug.github.io.git
 
