@@ -58,13 +58,6 @@
 <!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
 <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.url }}/images/apple-touch-icon-144x144-precomposed.png">
 <script type="text/javascript" charset="utf-8">
-function jumpScroll() {
-        window.scroll(0,150); // horizontal and vertical scroll targets
-}
-function jumpScroll1() {
-        window.scroll(0,-150); // horizontal and vertical scroll targets
-}
-
     KeyboardJS.on('a', function() {
             window.location = "http://ceglug.github.io/about/"
                 });
@@ -74,7 +67,7 @@ function jumpScroll1() {
     KeyboardJS.on('m', function() {
             window.location = "http://ceglug.github.io/message/"
                 });
-    KeyboardJS.on('h', function() {
+    KeyboardJS.on('/', function() {
             window.location = "http://ceglug.github.io/"
                 });
     KeyboardJS.on('p', function() {
@@ -83,16 +76,10 @@ function jumpScroll1() {
     KeyboardJS.on('t', function() {
             window.location = "http://ceglug.github.io/tags/"
                 });
-    KeyboardJS.on('n', function() {
-            button.dl-trigger
+    KeyboardJS.on('h', function() {
+            window.location = "http://ceglug.github.io/help/"
                 });
 
-    KeyboardJS.on('j',
-            jumpscroll()
-                );
-    KeyboardJS.on('k', 
-            jumpscroll1()
-                );
 
 </script>
 {% if page.image.background or site.background %}
