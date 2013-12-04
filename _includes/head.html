@@ -43,6 +43,7 @@
 <!-- Load Modernizr -->
 <script src="{{ site.url }}/assets/js/vendor/modernizr-2.6.2.custom.min.js"></script>
 <script src="{{ site.url }}/assets/js/keyboard.js"></script>
+<script src="{{ site.url }}/assets/js/ModalPopupWindow.js"></script>
 
 <!-- Icons -->
 <!-- 16x16 -->
@@ -77,6 +78,8 @@
             window.location = "http://ceglug.github.io/tags/"
                 });
     KeyboardJS.on('?', function() {
+            modalWin = new CreateModalPopUpObject();
+            modalWin.ShowMessage('This Modal Popup Window using Javascript',200,400,'User Information');
             window.location = "http://ceglug.github.io/help/"
                 });
     
