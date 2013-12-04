@@ -1,13 +1,13 @@
 {
-  "name": "hpstr-theme",
-  "author": "Michael Rose <michael@mademistakes.com>",
-  "homepage": "http://mmistakes.github.io/hpstr-jekyll-theme/",
+  "name": "Ceglug site",
+  "author": "CEGLUG Contributors",
+  "homepage": "ceglug.org",
   "repository": {
     "type": "git",
-    "url": "git://github.com/mmistakes/hpstr-jekyll-theme.git"
+    "url": "git://github.com/ceglug/ceglug.github.io.git"
   },
   "bugs": {
-    "url": "https://github.com/mmistakes/hpstr-jekyll-theme/issues"
+    "url": "https://github.com/ceglug/ceglug.github.io/issues"
   },
   "engines": {
     "node": ">= 0.10.0"
