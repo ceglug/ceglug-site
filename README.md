@@ -12,7 +12,7 @@ How do I contribute to the site?
         $ gem install jekyll
 
         $ gem install kramdown
-- [Star us](https://github.com/ceglug/ceglug.github.io/star) :D
+- Star us
 - [Fork us](https://github.com/ceglug/ceglug.github.io/fork) ;)
 - Clone the repo
         
