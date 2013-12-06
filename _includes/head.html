@@ -61,6 +61,13 @@
 <!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
 <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.url }}/images/apple-touch-icon-144x144-precomposed.png">
 <script type="text/javascript" charset="utf-8">
+function ScrollUp() {
+    window.scrollBy(0,100);
+}
+
+function ScrollDown() {
+    window.scrollBy(0,-100);
+}
 KeyboardJS.on('a', function() {
         window.location = "http://ceglug.github.io/about/"
         });
@@ -82,15 +89,18 @@ KeyboardJS.on('t', function() {
 KeyboardJS.on('f',function() {
         document.getElementById("nav").click();
         }); 
+KeyboardJS.on('esc',function() {
+        document.getElementById("nav").click();
+        });
 KeyboardJS.on('?',function() {
         window.location = "http://ceglug.github.io/help/"
 
         });
 KeyboardJS.on('j',function() {
-        Keyboard.press(38);
+    ScrollUp();
         });
 KeyboardJS.on('k',function() {
-        Keyboard.press(40);
+    ScrollDown();
         });
 
 
