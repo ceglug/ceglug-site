@@ -64,7 +64,7 @@ and, we get the code running.
 Explanation to why we add the one extra line to the source lex
 ---------------------
 * In the output of the make command, we see that it compiles using gcc, but it does not add the '-lfl' tag that we generally add.
-* Thats the reason why we need to add this one line. 
+* Thats the reason why we need to add this one line - "%option noyywrap"
 * There is a way to even avoid adding this one line to our source file, but it is only for advanced users! 
 
 ------------------------------------------
