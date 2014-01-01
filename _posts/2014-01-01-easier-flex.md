@@ -16,7 +16,7 @@ $ flex abcd.l > abcd.c
 $ gcc -o abcd abcd.c -lfl
 $ ./abcd
 {% endhighlight %}
-But this seemed somehow redundant. For example, in the below command, if I forget to give '> abcd.c' , the file automatically gets written into lex.yy.c, and keeps getting overwritten. In general, we hardly even look at the '.c' file. 
+But this seemed somehow redundant. For example, in the below command, if I forget to give the '> abcd.c' , the file automatically gets written into lex.yy.c, and keeps getting overwritten. In general, we hardly even look at the '.c' file. 
 {% highlight sh %}
 $ flex abcd.l > abcd.c
 {% endhighlight %}
