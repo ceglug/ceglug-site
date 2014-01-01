@@ -1,11 +1,15 @@
 ---
-layout:post
+layout: post
+title: Easier Flex
+description: "Post on Flex, a lexical analysis tool"
+tags: [make, flex]
 author: Prashant Anantharaman
-tags: [flex , make]
 image:
-  feature: abstract-11.jpg
+  background: triangular.png
+comments: true
 share: true
 ---
+
 Flex is a tool that is widely used in the "Design of Compilers Lab" of 6th Semester Computer Science and Engineering. 
 
 *I am writing this post, so that one can compile in just one line.*
