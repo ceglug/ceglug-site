@@ -1,9 +1,10 @@
 ---
+layout:post
+title: Easier and Faster way of compiling a Flex source file
+author: Prashant Anantharaman
 tags: [flex , make]
 image:
   feature: abstract-11.jpg
-comments: true
-author: Prashant Anantharaman
 share: true
 ---
 Flex is a tool that is widely used in the "Design of Compilers Lab" of 6th Semester Computer Science and Engineering. 
