@@ -1,6 +1,5 @@
 ---
 layout:post
-title: Easier and Faster way of compiling a Flex source file
 author: Prashant Anantharaman
 tags: [flex , make]
 image:
