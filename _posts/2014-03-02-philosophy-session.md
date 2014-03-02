@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Free software culture
+title: Free Software Philosophies
 description: "Software Freedom"
 tags: [fsftn]
 author: Srravya.C
@@ -12,4 +12,4 @@ share: true
 
 We at CEGLUG coordially invite you to join us in a discussion on Free software: Culture, trends and technologies. 
 
-![Alt text](poster1.jpg)
+<img src="http://ceglug.github.io/images/poster1.jpg" alt="CEGLUG photo" class="author-photo">
